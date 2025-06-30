@@ -1,6 +1,6 @@
 # Assignment Submission
 
-As a part of my assignment, I have developed this full-stack real-time chat application using the MERN stack (MongoDB, Express.js, React.js, Node.js) and WebSocket for real-time communication.
+As a part of my Internship assignment, I have developed this full-stack real-time chat application using the MERN stack (MongoDB, Express.js, React.js, Node.js) and WebSocket for real-time communication.
 
 # Real-Time Chat Application
 

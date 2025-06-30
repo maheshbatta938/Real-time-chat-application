@@ -1,0 +1,37 @@
+{
+  "name": "real-time-chat-app",
+  "version": "1.0.0",
+  "description": "A modern real-time chat application built with MERN stack and WebSocket",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd Messenger && npm run dev",
+    "install-all": "npm install && cd backend && npm install && cd ../Messenger && npm install",
+    "build": "cd Messenger && npm run build",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "chat",
+    "real-time",
+    "websocket",
+    "mern",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Full-Stack Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/real-time-chat-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/real-time-chat-app/issues"
+  },
+  "homepage": "https://github.com/yourusername/real-time-chat-app#readme"
+} 

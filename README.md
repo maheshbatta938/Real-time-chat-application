@@ -5,6 +5,10 @@ As a part of my Internship assignment, I have developed this full-stack real-tim
 # Real-Time Chat Application
 
 A modern, real-time chat application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) featuring WebSocket communication for instant messaging.
+## Deployment Live Links
+
+- **Frontend:** [https://real-time-chat-application-1-2o05.onrender.com/](https://real-time-chat-application-1-2o05.onrender.com/)
+- **Backend:** [https://real-time-chat-application-5hk1.onrender.com/](https://real-time-chat-application-5hk1.onrender.com/)
 
 ## 🚀 Features
 

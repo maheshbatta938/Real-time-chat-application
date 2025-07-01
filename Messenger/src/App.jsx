@@ -24,7 +24,7 @@ function App() {
       return;
     }
     setError('');
-    const websocket = new WebSocket('ws://localhost:5000');
+    const websocket = new WebSocket('https://real-time-chat-application-5hk1.onrender.com');
     websocket.onopen = () => {
       setIsConnected(true);
       websocket.send(JSON.stringify({
